@@ -43,7 +43,7 @@ app.get("/users",async(req,res)=>{
 
 app.listen(8000,async()=>{
     try{
-        console.log("listening on port 8000")
+        console.log("listening on port 8000 ,hi server")
     }catch(err){
         console.log("error is",err)
     }
